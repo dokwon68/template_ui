@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+image {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  min-height: 200vh;
+}
+
+.app {
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
